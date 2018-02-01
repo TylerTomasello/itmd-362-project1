@@ -8,6 +8,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Base Styles */
 html {
+  background-color: DarkTurquoise;
+  font-family: 'Pridi', serif;
   font-size: 1.5em; /* 24 / 16 = 1.5*/
   line-height: 1.25em; /* 30 / 24 = 1.25*/
 }
