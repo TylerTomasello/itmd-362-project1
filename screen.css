@@ -8,7 +8,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Base Styles */
 html {
-  background-color: DarkTurquoise;
+  background-color: black;
+  color: white;
+  /*background-color: DarkTurquoise;*/
   font-family: 'Pridi', serif;
   /*font-family: 'VT323', monospace;
   font-family: 'Press Start 2P', cursive;*/
