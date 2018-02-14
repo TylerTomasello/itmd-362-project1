@@ -51,7 +51,7 @@ input {
 input[type="submit"] {
   width: 50%;
   float: right;
-  background: red;
+  background: yellow;
 }
 /*
 form {
