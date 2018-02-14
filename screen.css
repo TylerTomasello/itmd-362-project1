@@ -12,8 +12,8 @@ html {
   color: white;
   /*background-color: DarkTurquoise;*/
   /*font-family: 'Pridi', serif;*/
-  /*font-family: 'VT323', monospace;*/
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'VT323', monospace;
+  /*font-family: 'Press Start 2P', cursive;*/
   font-size: 1.125em; /* 18 / 16 = 1.125em */
   line-height: 1.222em; /* 22 / 18 = 1.222em */
 }
@@ -28,6 +28,10 @@ h2 {
   line-height: 1.222em; /* 33 / 27 = 1.222 */
 }
 
+p {
+  margin-bottom: 10px;
+}
+
 label,
 input {
   display: block;
@@ -38,12 +42,12 @@ input {
   width: 100%;
   border: 0;
   line-height: 1;
-  padding: 13px;
+  padding: 10px;
   background: #DDD;
 }
 label,
 input {
-  margin-bottom: 22px;
+  margin-bottom: 0px;
 }
 input[type="submit"] {
   width: 50%;
@@ -81,6 +85,7 @@ textarea {
   font-size: inherit; /* 1 */
   line-height: inherit; /* 1 */
   margin: 0; /* 2 */
+  margin-bottom: 10px;
 }
 
 /**
