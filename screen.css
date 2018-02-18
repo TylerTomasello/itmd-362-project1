@@ -49,6 +49,7 @@ input {
   margin-bottom: 0px;
 }
 input[type="submit"] {
+  cursor: pointer;
   width: 50%;
   float: right;
   background: yellow;
@@ -61,6 +62,13 @@ input[type="submit"] {
 /* Modular Styles */
 
 /* State Styles */
+.js input[type="submit"] {
+  display: none;
+}
+
+.js input[type="submit"].show {
+  display: block;
+}
 
 /* Forms
    ========================================================================== */
