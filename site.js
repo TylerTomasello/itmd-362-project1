@@ -10,7 +10,8 @@ $('#email').on('keyup', function(){
     val: $(this).val(),
     pat: /^[^\s@]+@[^\s@]+$/
   }
-  if((email.pat).test(email.val)) {
+  var name = $('#name').val();
+  if(name !== "" && (email.pat).test(email.val)) {
     $('input[type="submit"]').addClass('show');
   }
 });
