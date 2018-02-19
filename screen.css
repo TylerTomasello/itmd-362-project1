@@ -12,7 +12,7 @@ html {
   color: white;
   /*background-color: DarkTurquoise;*/
   /*font-family: 'Pridi', serif;*/
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
   /*font-family: 'Press Start 2P', cursive;*/
   font-size: 1.125em; /* 18 / 16 = 1.125em */
   line-height: 1.222em; /* 22 / 18 = 1.222em */
@@ -28,7 +28,7 @@ h2 {
 }
 
 p {
-  margin-bottom: 10px;
+  margin-bottom: 1em;
 }
 
 label,
@@ -41,13 +41,10 @@ input {
   width: 100%;
   border: 0;
   line-height: 1;
-  padding: 10px;
+  padding: 0.5em;
   background: #DDD;
 }
-label,
-input {
-  margin-bottom: 0px;
-}
+
 input[type="submit"] {
   cursor: pointer;
   width: 50%;
@@ -87,7 +84,7 @@ textarea {
   font-size: inherit; /* 1 */
   line-height: inherit; /* 1 */
   margin: 0; /* 2 */
-  margin-bottom: 10px;
+  margin-bottom: 0.9em;
 }
 
 /**
@@ -143,7 +140,7 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
+  outline: 1em dotted ButtonText;
 }
 
 /**
@@ -215,7 +212,7 @@ textarea {
 
 [type="search"] {
   -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  outline-offset: -2em; /* 2 */
 }
 
 /**
