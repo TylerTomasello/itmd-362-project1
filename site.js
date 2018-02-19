@@ -13,6 +13,6 @@ $('#email').on('keyup', function(){
   /* tested and had problems */
   // var birthday = $('#birthday').val();
   if(name !== "" && (email.pat).test(email.val)) {
-    $('input[type="submit"]').addClass('show');
+    $('input[type="submit"]').addClass('show').fadeIn(5000);
   }
 });
