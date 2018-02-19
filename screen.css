@@ -235,8 +235,21 @@ textarea {
   font: inherit; /* 2 */
 }
 
+/* media for screen size */
 @media screen and (min-width: 600px) {
   main {
     max-width: 65%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  main {
+    max-width: 60%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  main {
+    max-width: 55%;
   }
 }
