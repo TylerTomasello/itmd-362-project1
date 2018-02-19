@@ -234,3 +234,9 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
+
+@media screen and (min-width: 600px) {
+  main {
+    max-width: 65%;
+  }
+}
